@@ -87,6 +87,12 @@ module.exports = {
 			jQuery : 'jquery'
 		}),
 
+    new HtmlWebpackPlugin({
+      hash : true,
+      template : 'ejs-render-loader!./BaseBundle/resources/views/dummy.ejs',
+      inject : 'body'
+    }),
+
 		new ModernizrWebpackPlugin(),
 
 	]
