@@ -5,8 +5,8 @@
   "scripts": {
     "devil": "webpack -d",
     "watch": "webpack -d --watch",
-    "prod" : "npm run clean && webpack -p",
-    "clean" : "rimraf ./dist/*"
+    "prod": "npm run clean && webpack -p",
+    "clean": "rimraf ./dist/*"
   },
   "keywords": [],
   "author": "",
