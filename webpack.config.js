@@ -12,6 +12,7 @@ var webpack = require("webpack"),
 	 optipng = require('imagemin-optipng'),
 	 pngquant = require('imagemin-pngquant'),
 	 webp = require('imagemin-webp'),
+   json = require('json-loader'),
 
 	bootstrapconfig = bootstrapEntryPoints.dev;
 
@@ -41,6 +42,12 @@ module.exports = {
 
           	})
       },
+
+          // for json loader
+          {
+            test: /\.json$/,
+            use: 'json-loader'
+          },
           
           // for font awesome TODO - possible that this isnt needed afterall since bootstrap's already exist
          { test: /\.woff(2)?(\?.*$|$)/, loader: "url-loader?limit=10000&mimetype=application/font-woff&name=font-awesome/[name].[ext]" },
