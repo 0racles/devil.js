@@ -1,6 +1,13 @@
-@import '_devil.json';
+.btn {
+	background : red !important;
+	color : white;
+}
 
-{
+.btn-primary {
+	background : red !important;
+	color : white;
+}
+/*{
     "font-sans": "Helvetica, sans-serif",
     "colors": {
         "red": "#c33"
@@ -8,4 +15,4 @@
     "button": {
     	"primary": "#000"
     }
-}
+}*/
