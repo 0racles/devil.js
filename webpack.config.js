@@ -13,6 +13,8 @@ var webpack = require("webpack"),
 	 pngquant = require('imagemin-pngquant'),
 	 webp = require('imagemin-webp'),
    json = require('json-loader'),
+   sass = require('node-sass'),
+   jsonImporter = require('node-sass-json-importer'),
 
 	bootstrapconfig = bootstrapEntryPoints.dev;
 
@@ -35,12 +37,30 @@ module.exports = {
       	  	test: /\.ejs$/,
       	  	use: 'ejs-html-loader'
       	  },
-          { test: /\.scss$/, 
-          	use : ExtractTextPlugin.extract({ 
+          { 
+              test: /\.scss$/, 
+          	  use : ExtractTextPlugin.extract({ 
           		fallback : 'style-loader',
           		use : ['css-loader?url=false', 'sass-loader?sourceMap']
-
-          	})
+          	}),
+              // added json importer here
+              use: [
+              'style-loader',
+              {
+                  loader: 'css-loader',
+                  options: {
+                    importLoaders: 1
+                  },
+                },
+                {
+                  loader: 'sass-loader',
+                  // Apply the JSON importer via sass-loader's options.
+                  options: {
+                    importer: jsonImporter,
+                  },
+                },
+              ]
+              // end
       },
 
           // for json loader
