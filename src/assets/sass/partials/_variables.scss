@@ -1,8 +1,9 @@
 /* ---------------------------colors -------------------------------------- */
 
 /* $row-background-color: #eeeeee; */
-$body-background-color: #1B1438; /* satoshi dark blue */
+$body-background-color: rgb(27,20,56); /* satoshi dark blue */
 $bg-transparent: rgba(27,20,0,0.1);  /* satoshi transparent */
+$header-overlay-color: rgba(27,20,100,0.8);  /* satoshi header overlay */
 $button-green: #22B573;
 $button-hover: #00afa0;
  
@@ -20,7 +21,7 @@ $quarter-height: 25%;
 
 /* -------------------------------- TEXT SIZING -------------------------------*/
 
-$font-lg: 90px; /* Satoshi title size */
-$font-md: 36px; /* Satoshi Heading size */
-$font-sm: 30px; /* Satoshi sub heading size */
+$font-lg: 90px; /* Satoshi title (h1) size */
+$font-md: 36px; /* Satoshi Heading (h2) size */
+$font-sm: 30px; /* Satoshi sub heading (h3) size */
 $font-xs: 18px; /* Satoshi p size */

@@ -3,5 +3,14 @@
 @import 'mixins/margin.scss';
 
 .header {
+    background-color: $header-overlay-color;  
+}
 
+.hero {
+  background-image: url('../../images/hero.png');
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
