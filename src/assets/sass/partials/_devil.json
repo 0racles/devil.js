@@ -1,9 +1,0 @@
-{
-    "font-sans": "Helvetica, sans-serif",
-    "colors": {
-        "red": "#c33"
-    }
-    "button": {
-    	"primary": "#000"
-    }
-}
