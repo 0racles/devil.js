@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu|Varela+Round');
+
+.font {
+	color: #fff;
+	font-weight: 900;
+	&--lg {
+		font-size: $font-lg;
+		font-weight: bold;
+		@extend .font;
+	}
+	&--md {
+		font-size: $font-md;
+		font-weight: bold;
+		@extend .font;
+	}
+	&--sm {
+		font-size: $font-sm;
+		@extend .font;
+	}
+	&--xs {
+		font-size: $font-xs;
+	}
+	&--middle {
+		text-align: center !important;
+	}
+	&--right {
+		text-align: right !important;
+	}
+	&--left {
+		text-align: left !important;
+	}
+}
+
+.font-heading {
+    font-family : "Varela Round", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif; /* !important; */
+}
+
+.font-body {
+    font-family : Ubuntu, Tahoma, Verdana, Segoe, sans-serif; /* !important; */
+}
