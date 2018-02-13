@@ -1,0 +1,56 @@
+/*$state-success-text : $devil-bg-success !important;*/
+/* ------ Queries (If at all, tweak the ones at variables.scss except you want to alter this from bootstrap directly) ----------------------- */
+/* ALERT */
+/* to change */
+/* headings for larger alerts */
+/* Provide class for links that match alerts */
+/* Dismissible alerts */
+/* Adjust close link position */
+/* to change */
+/* to change */
+/* Alerts */
+.alert {
+  padding: 10px;
+  margin-bottom: 14px;
+  border: 1px solid transparent;
+  border-radius: 10px; }
+  .alert h4 {
+    margin-top: 0;
+    color: inherit; }
+  .alert .alert-link {
+    font-weight: 10px; }
+  .alert > p,
+  .alert > ul {
+    margin-bottom: 0; }
+  .alert > p + p {
+    margin-top: 5px; }
+
+.alert-dismissable,
+.alert-dismissible {
+  padding-right: 30px; }
+  .alert-dismissable .close,
+  .alert-dismissible .close {
+    position: relative;
+    top: 10px;
+    right: 10px;
+    color: inherit; }
+
+.alert-success {
+  background-color: "green" !important;
+  border-color: "green" !important;
+  color: #333; }
+
+.alert-info {
+  background-color: "blue" !important;
+  border-color: "blue" !important;
+  color: "blue" !important; }
+
+.alert-warning {
+  background-color: "purple" !important;
+  border-color: "purple" !important;
+  color: "purple" !important; }
+
+.alert-danger {
+  background-color: "khaki" !important;
+  border-color: "khaki" !important;
+  color: "khaki" !important; }

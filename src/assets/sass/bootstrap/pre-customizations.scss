@@ -1,3 +1,46 @@
+$devil-value : 10px;
+$devil-font : 10px;
+$devil-line-height : 1.428571429;
+$devil-bg-success : 'green';
+$devil-bg-info : 'blue';
+$devil-bg-warning : 'purple';
+$devil-bg-danger : 'khaki';
+
+//* Anchor variables
+$font-size-base : $devil-font;
+$line-height-base : $devil-line-height;
+
+$state-success-bg : $devil-bg-success !important;
+/*$state-success-text : $devil-bg-success !important;*/
+$state-success-border : $devil-bg-success !important;
+
+$state-info-bg : $devil-bg-info !important;
+$state-info-text : $devil-bg-info !important;
+$state-info-border : $devil-bg-info !important;
+
+$state-warning-bg : $devil-bg-warning !important;
+$state-warning-text : $devil-bg-warning !important;
+$state-warning-border : $devil-bg-warning !important;
+
+$state-danger-bg : $devil-bg-danger !important;
+$state-danger-text : $devil-bg-danger !important;
+$state-danger-border : $devil-bg-danger !important;
+
+
+//* REDEFINE
+$alert-border-devil-value : 1px solid transparent;
+$alert-border-margin-top : 0;
+$alert-close-position : relative;
+$alert-close-top : -2px;
+$alert-close-right : -21px;
+$alert-close-color : inherit;
+
+
+
+
+
+
+
 
 
 /* ------ Queries (If at all, tweak the ones at variables.scss except you want to alter this from bootstrap directly) ----------------------- */
