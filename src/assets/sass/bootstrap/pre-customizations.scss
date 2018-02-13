@@ -48,6 +48,19 @@ $badge-active-color: $devil-bg-primary;
 $badge-active-bg: $devil-bg-success;
 
 
+//== Breadcrumbs
+//
+//##
+
+//** Breadcrumb background color
+$breadcrumb-bg: $devil-bg-success;
+//** Breadcrumb text color
+$breadcrumb-color: $devil-color;
+//** Text color of current page in the breadcrumb
+$breadcrumb-active-color: $devil-color;
+
+
+
 
 
 /* ------ Queries (If at all, tweak the ones at variables.scss except you want to alter this from bootstrap directly) ----------------------- */
