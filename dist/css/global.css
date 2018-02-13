@@ -1,4 +1,3 @@
-/*$state-success-text : $devil-bg-success !important;*/
 /* ------ Queries (If at all, tweak the ones at variables.scss except you want to alter this from bootstrap directly) ----------------------- */
 /* ALERT */
 /* to change */
@@ -8,7 +7,6 @@
 /* Adjust close link position */
 /* to change */
 /* to change */
-/* Alerts */
 .alert {
   padding: 10px;
   margin-bottom: 14px;
@@ -36,21 +34,37 @@
     color: inherit; }
 
 .alert-success {
-  background-color: "green" !important;
-  border-color: "green" !important;
-  color: #333; }
+  background-color: green;
+  border-color: blue;
+  color: red; }
+  .alert-success hr {
+    border-top-color: #0000e6; }
+  .alert-success .alert-link {
+    color: #cc0000; }
 
 .alert-info {
-  background-color: "blue" !important;
-  border-color: "blue" !important;
-  color: "blue" !important; }
+  background-color: #0000ff;
+  border-color: #0000ff;
+  color: #ffffff; }
+  .alert-info hr {
+    border-top-color: #0000e6; }
+  .alert-info .alert-link {
+    color: #e6e6e6; }
 
 .alert-warning {
-  background-color: "purple" !important;
-  border-color: "purple" !important;
-  color: "purple" !important; }
+  background-color: #a54382;
+  border-color: #a54382;
+  color: #ffffff; }
+  .alert-warning hr {
+    border-top-color: #933c74; }
+  .alert-warning .alert-link {
+    color: #e6e6e6; }
 
 .alert-danger {
-  background-color: "khaki" !important;
-  border-color: "khaki" !important;
-  color: "khaki" !important; }
+  background-color: #7fff94;
+  border-color: #7fff94;
+  color: #ffffff; }
+  .alert-danger hr {
+    border-top-color: #66ff7f; }
+  .alert-danger .alert-link {
+    color: #e6e6e6; }
