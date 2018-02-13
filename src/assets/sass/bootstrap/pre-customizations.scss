@@ -1,30 +1,31 @@
 $devil-value : 10px;
 $devil-font : 10px;
 $devil-line-height : 1.428571429;
-$devil-bg-success : 'green';
-$devil-bg-info : 'blue';
-$devil-bg-warning : 'purple';
-$devil-bg-danger : 'khaki';
+$devil-color : #ffffff;
+$devil-bg-success : #4c997f;
+$devil-bg-info : #0000ff;
+$devil-bg-warning : #a54382;
+$devil-bg-danger : #7fff94;
 
 //* Anchor variables
 $font-size-base : $devil-font;
 $line-height-base : $devil-line-height;
 
-$state-success-bg : $devil-bg-success !important;
-/*$state-success-text : $devil-bg-success !important;*/
-$state-success-border : $devil-bg-success !important;
+$state-success-bg : $devil-bg-success;
+$state-success-text : $devil-color;
+$state-success-border : $devil-bg-success;
 
-$state-info-bg : $devil-bg-info !important;
-$state-info-text : $devil-bg-info !important;
-$state-info-border : $devil-bg-info !important;
+$state-info-bg : $devil-bg-info;
+$state-info-text : $devil-color;
+$state-info-border : $devil-bg-info;
 
-$state-warning-bg : $devil-bg-warning !important;
-$state-warning-text : $devil-bg-warning !important;
-$state-warning-border : $devil-bg-warning !important;
+$state-warning-bg : $devil-bg-warning;
+$state-warning-text : $devil-color;
+$state-warning-border : $devil-bg-warning;
 
-$state-danger-bg : $devil-bg-danger !important;
-$state-danger-text : $devil-bg-danger !important;
-$state-danger-border : $devil-bg-danger !important;
+$state-danger-bg : $devil-bg-danger;
+$state-danger-text : $devil-color;
+$state-danger-border : $devil-bg-danger;
 
 
 //* REDEFINE
