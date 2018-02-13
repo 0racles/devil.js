@@ -2,6 +2,7 @@ $devil-value : 10px;
 $devil-font : 10px;
 $devil-line-height : 1.428571429;
 $devil-color : #ffffff;
+$devil-bg-primary : #808000;
 $devil-bg-success : #4c997f;
 $devil-bg-info : #0000ff;
 $devil-bg-warning : #a54382;
@@ -36,6 +37,15 @@ $alert-close-top : -2px;
 $alert-close-right : -21px;
 $alert-close-color : inherit;
 
+
+//== Badges
+//
+//##
+
+$badge-color: $devil-color;
+$badge-bg: $devil-bg-primary;
+$badge-active-color: $devil-bg-primary;
+$badge-active-bg: $devil-bg-success;
 
 
 
