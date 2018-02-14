@@ -11,6 +11,7 @@ $devil-bg-danger : #7fff94;
 $devil-border-radius-base : 4px;
 $devil-border-radius-large : 6px;
 $devil-border-radius-small : 3px;
+$devil-carousel-control-color : #4c997f;
 
 //* Anchor variables
 $font-size-base : $devil-font;
@@ -89,6 +90,12 @@ $btn-border-radius-base:         $devil-border-radius-base;
 $btn-border-radius-large:        $devil-border-radius-large;
 $btn-border-radius-small:        $devil-border-radius-small;
 
+
+//== Carousel
+//
+//##
+
+$carousel-control-color: $devil-carousel-control-color;
 
 
 /* ------ Queries (If at all, tweak the ones at variables.scss except you want to alter this from bootstrap directly) ----------------------- */
