@@ -12,6 +12,9 @@ $devil-border-radius-base : 4px;
 $devil-border-radius-large : 6px;
 $devil-border-radius-small : 3px;
 $devil-carousel-control-color : #4c997f;
+$devil-border-color : #462a88;
+$devil-border-focus : #3d5579;
+$devil-placeholder : #333;
 
 //* Anchor variables
 $font-size-base : $devil-font;
@@ -128,6 +131,33 @@ $dropdown-link-active-color: $devil-color;
 
 //** Active dropdown menu item background color.
 $dropdown-link-active-bg: $devil-bg-primary;
+
+
+//== Forms
+//
+//##
+
+//** `<input>` background color
+$input-bg: $devil-bg-success;
+
+//** Text color for `<input>`s
+$input-color: $devil-color;
+
+
+// TODO: Rename 
+// This has no effect on `<select>`s in some browsers, due to the limited stylability of `<select>`s in CSS.
+$input-border-radius:            $devil-border-radius-base;
+//** Large `.form-control` border radius
+$input-border-radius-large: $devil-border-radius-large;
+//** Small `.form-control` border radius
+$input-border-radius-small:      $devil-border-radius-small;
+
+//** Border color for inputs on focus
+$input-border-focus: $devil-border-focus;
+
+//** Placeholder text color
+$input-color-placeholder: $devil-placeholder;
+
 
 
 /* ------ Queries (If at all, tweak the ones at variables.scss except you want to alter this from bootstrap directly) ----------------------- */
