@@ -1,5 +1,6 @@
 $devil-value : 10px;
 $devil-font : 10px;
+$devil-font-weight : normal;
 $devil-line-height : 1.428571429;
 $devil-color : #ffffff;
 $devil-bg-primary : #808000;
@@ -7,6 +8,9 @@ $devil-bg-success : #4c997f;
 $devil-bg-info : #0000ff;
 $devil-bg-warning : #a54382;
 $devil-bg-danger : #7fff94;
+$devil-border-radius-base : 4px;
+$devil-border-radius-large : 6px;
+$devil-border-radius-small : 3px;
 
 //* Anchor variables
 $font-size-base : $devil-font;
@@ -60,6 +64,30 @@ $breadcrumb-color: $devil-color;
 $breadcrumb-active-color: $devil-color;
 
 
+//== Buttons
+//
+//## For each of Bootstrap's buttons, define text, background and border color.
+
+$btn-font-weight: $devil-font-weight;
+
+$btn-default-color: $devil-color;
+$btn-default-bg: $devil-bg-success;
+
+$btn-primary-bg: $devil-bg-primary;
+
+$btn-success-bg: $devil-bg-success;
+
+$btn-info-bg: $devil-bg-info;
+
+$btn-warning-bg: $devil-bg-warning;
+
+$btn-danger-bg: $devil-bg-danger;
+
+
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius-base:         $devil-border-radius-base;
+$btn-border-radius-large:        $devil-border-radius-large;
+$btn-border-radius-small:        $devil-border-radius-small;
 
 
 
