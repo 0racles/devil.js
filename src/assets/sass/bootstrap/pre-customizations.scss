@@ -106,6 +106,30 @@ $close-font-weight: $devil-font-weight;
 $close-color: $devil-color;
 
 
+//== Dropdowns
+//
+//## Dropdown menu container and contents.
+
+//** Background for the dropdown menu.
+$dropdown-bg: $devil-bg-success;
+
+
+//** Divider color for between dropdown items.
+$dropdown-divider-bg: $devil-bg-danger;
+
+//** Dropdown link text color.
+$dropdown-link-color: $devil-color;
+
+//** Hover background for dropdown links.
+$dropdown-link-hover-bg: $devil-bg-warning;
+
+//** Active dropdown menu item text color.
+$dropdown-link-active-color: $devil-color;
+
+//** Active dropdown menu item background color.
+$dropdown-link-active-bg: $devil-bg-primary;
+
+
 /* ------ Queries (If at all, tweak the ones at variables.scss except you want to alter this from bootstrap directly) ----------------------- */
 $screen-xs:					 480px;
 $screen-xs-min:              $screen-xs;
