@@ -159,6 +159,14 @@ $input-border-focus: $devil-border-focus;
 $input-color-placeholder: $devil-placeholder;
 
 
+//== Jumbotron
+//
+//##
+
+$jumbotron-bg: $devil-bg-success;
+$jumbotron-heading-color: $devil-color;
+
+
 
 /* ------ Queries (If at all, tweak the ones at variables.scss except you want to alter this from bootstrap directly) ----------------------- */
 $screen-xs:					 480px;
