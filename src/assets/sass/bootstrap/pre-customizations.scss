@@ -15,6 +15,12 @@ $devil-carousel-control-color : #4c997f;
 $devil-border-color : #462a88;
 $devil-border-focus : #3d5579;
 $devil-placeholder : #333;
+$devil-opacity : 0.3;
+$devil-modal-lg : 900px;
+$devil-modal-md : 600px;
+$devil-modal-sm : 300px;
+$devil-height : 40px;
+$devil-width : 40px;
 
 //* Anchor variables
 $font-size-base : $devil-font;
@@ -186,6 +192,44 @@ $label-danger-bg: $devil-bg-danger;
 
 //** Default label text color
 $label-color: $devil-color;
+
+
+//== Modals
+//
+//##
+
+//** Background color of modal content area
+$modal-content-bg: $devil-bg-primary;
+//** Modal content border color
+$modal-content-border-color: $devil-border-color;
+
+//** Modal backdrop background color
+$modal-backdrop-bg: $devil-bg-info;
+//** Modal backdrop opacity
+$modal-backdrop-opacity: $devil-opacity;
+
+//** Modal header border color
+$modal-header-border-color: $devil-border-color;
+//** Modal footer border color
+$modal-footer-border-color: $devil-border-color;
+
+$modal-lg: $devil-modal-lg;
+$modal-md: $devil-modal-md;
+$modal-sm: $devil-modal-sm;
+
+
+//== Navbar
+//
+//##
+
+// Basics of a navbar
+$navbar-height: $devil-height;
+
+$navbar-border-radius:             $devil-border-radius-base;
+
+$navbar-default-color: $devil-color;
+
+$navbar-default-bg: $devil-bg-primary;
 
 
 /* ------ Queries (If at all, tweak the ones at variables.scss except you want to alter this from bootstrap directly) ----------------------- */
