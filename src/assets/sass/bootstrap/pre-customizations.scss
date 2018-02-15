@@ -167,6 +167,26 @@ $jumbotron-bg: $devil-bg-success;
 $jumbotron-heading-color: $devil-color;
 
 
+//== Labels
+//
+//##
+
+//** Default label background color
+
+//** Primary label background color
+$label-primary-bg: $devil-bg-primary;
+//** Success label background color
+$label-success-bg: $devil-bg-success;
+//** Info label background color
+$label-info-bg: $devil-bg-info;
+//** Warning label background color
+$label-warning-bg: $devil-bg-warning;
+//** Danger label background color
+$label-danger-bg: $devil-bg-danger;
+
+//** Default label text color
+$label-color: $devil-color;
+
 
 /* ------ Queries (If at all, tweak the ones at variables.scss except you want to alter this from bootstrap directly) ----------------------- */
 $screen-xs:					 480px;
