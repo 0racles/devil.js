@@ -6,136 +6,179 @@
     </head>
 
     <body>
-    <!-- header include -->
-    <% include ../resources/partials/header.ejs %>
+      <!-- header include -->
+      <% include ../resources/partials/header.ejs %>
 
-    <main>
-  <section class="container-fluid about-wrapper">
-    <div class="row">
-      <div class="col-sm">
-      <div class="text-center">
-        <h2 class="text-uppercase"> About Token</h2>
-        <p class="w-75 d-inline-block">SATOSHI ERC20 TOKEN uses advanced cryptographic techniques, namely zero-knowledge proofs, to guarantee the validity of transactions without revealing additional information about them.</p>
+      <main>
+        <section class="container-fluid about-wrapper">
+          <div class="row">
+           <!-- <div class="col"> -->
+            <div class="col-xs-12 text-center marg-t">
+              <h2 class="text-uppercase"> About Token</h2>
+              <p class="w-50 d-inline-block">SATOSHI ERC20 TOKEN uses advanced cryptographic techniques, namely zero-knowledge proofs, to guarantee the validity of transactions without revealing additional information about them.</p>
 
-        <p class="w-75 d-inline-block">SATOSHI payments are confirmed, but they are not published on the public blockchain, and the sender, recipient, and amount of a transaction remain private. </p>
-       </div> <!-- .text-center -->
+              <p class="w-50 d-inline-block marg-b">SATOSHI payments are confirmed, but they are not published on the public blockchain, and the sender, recipient, and amount of a transaction remain private. </p>
+             </div> <!-- .text-center -->
 
-      <!-- table  -->
-      <div class="container">
-        <div class="row">
-          <div class="col-sm table-top d-flex justify-content-around">
-            <div class="col"> <p>Token</p> </div>
-            <div class="col"> <p>Total Supply</p> </div>
-            <div class="col"> <p>Contract</p> </div>
-            <div class="col"> <p>Symbol</p> </div>
-            <div class="col"> <p>Decimals</p> </div>
-          </div> <!-- .table-top  -->
-          <div class="w-100"></div>
-          <div class="col-sm table-bottom d-flex justify-content-around">
-            <div class="col"> <p>Ethereum </p> </div>
-            <div class="col"> <p>21 000 000</p> </div>
-            <div class="col"><p class="contract">0xc01b78e62a4d1fdce58d<br>364193ee1218832919fd</p> </div>
-            <div class="col"> <p>STH</p> </div>
-            <div class="col"> <p>18</p> </div>
-          </div> <!-- .table-bottom  -->
-        </div>  <!-- .row -->
-      </div>  <!-- end table  -->
-      </div> <!-- .col -->
-    </div> <!-- .row -->
-  </section>
+            <!-- table  -->
+            <div class="container">
+              <div class="row">
+                <div class="col-sm table-top d-flex justify-content-around">
+                  <div class="col"> <p>Token</p> </div>
+                  <div class="col"> <p>Total Supply</p> </div>
+                  <div class="col"> <p>Contract</p> </div>
+                  <div class="col"> <p>Symbol</p> </div>
+                  <div class="col"> <p>Decimals</p> </div>
+                </div> <!-- .table-top  -->
+                <div class="w-100"></div>
+                <div class="col-sm table-bottom d-flex justify-content-around marg-b">
+                  <div class="col"> <p>Ethereum </p> </div>
+                  <div class="col"> <p>21 000 000</p> </div>
+                  <div class="col"><p class="contract">0xc01b78e62a4d1fdce58d<br>364193ee1218832919fd</p> </div>
+                  <div class="col"> <p>STH</p> </div>
+                  <div class="col"> <p>18</p> </div>
+                </div> <!-- .table-bottom  -->
+              </div>  <!-- .row -->
+            </div>  <!-- end table .container  -->
 
-  <section class="adv-wrapper">
-    <div class="container-fluid main-content">
-      <div class="container">
-        <div class="col">
-        <p>The intermediate token STH was created to form the community of the first anonymous token on the Ethereum platform and to determine the potential demand for it.</p>
+            </div> <!-- .col -->
+          </div> <!-- .row -->
+        </section>
 
-        <p>The STH token will be exchanged for the SATOSHI token, which has the following characteristics:</p>
-        </div> <!-- .col -->
+        <section class="adv-wrapper">
+          <div class="container-fluid main-content">
+            <div class="container">
+              <div class="row">
+                <div class="col marg-t marg-b">
+                  <p>The intermediate token STH was created to form the community of the first anonymous token on the Ethereum platform and to determine the potential demand for it.</p>
 
-        <div>
-          <h2 class="text-center text-uppercase">Advantages</h2>
-        </div>
+                  <p>The STH token will be exchanged for the SATOSHI token, which has the following characteristics:</p>
+                </div> <!-- .col-xs-12 col-sm-12 marg-t marg-b -->
+             </div> <!-- .row -->
 
-        <div class="row">
-          <div class="col-sm">
+              <div class="marg-t marg-b">
+                <h2 class="text-center text-uppercase">Advantages</h2>
+              </div>
+
+              <div class="row">
+                <div class="col-xs col-sm marg-t marg-b">
+                  <div>
+                    <span class="circle float-left marg-r">1</span><p>The first anonymous token in the Ethereum network.</p>
+                  </div>
+                </div>
+
+                <div class="col-xs col-sm marg-t marg-b">
+                  <div>
+                    <span class="circle float-left marg-r"><img src="../../../src/assets/images/arrows.png"></span><p>The transfer of token is not fixed by the transaction.</p>
+                  </div>
+                </div> <!-- .col-sm -->
+
+                <div class="w-100"></div>
+
+                <div class="col-xs col-sm marg-t marg-b">
+                  <div>
+                    <span class="circle float-left marg-r"><img src="../../../src/assets/images/token.png"></span><p>Total 21 000 000 tokens.</p>
+                  </div>
+                </div>
+
+                <div class="col-xs col-sm marg-t marg-b">
+                  <div>
+                    <span class="circle float-left marg-r"><img src="../../../src/assets/images/smartContract.png"></span> <p>Smart contract verified Contract Source Code Verified.</p>
+                  </div>
+                </div> <!-- .col-sm -->
+              </div> <!-- .row -->
+
+              </div> <!-- container -->
+          </div> <!-- .main-content -->
+        </section>
+
+        <section class="container-fluid road-wrapper">
+          <div class="container">
             <div>
-              <span class="circle float-left">1</span><p>The first anonymous token in the Ethereum network.</p>
+              <h2 class="text-center text-uppercase">Road Map</h2>
             </div>
+
+            <div class="col">
+              <div class="row">
+                <div class="col-md-9">
+                  <p>Launching an application for anonymous payments.</p>
+                  <p>Decentralized exchange</p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="time-line">
+
+                </div> <!-- time-line -->
+
+                <div>
+                  <p> Swap of intermediate tokens STH to the anonymous SATOSHI token.
+
+                  STH swap will be done by sending tokens to the address of an anonymous smart contract according to the following rules:
+                  </p>
+
+                  <ol>
+                    <li>1. Up to 1500 STH 1: 1.</li>
+
+                    <li>2. From 1500 to 15000 bonus of 15%</li>
+
+                    <li>3. From 15,000 to 50,000 bonus of 25%</li>
+
+                    <li>4. From 50,000 to 100,000 bonus of 35%</li>
+
+                    <li>5. Over 100,000 bonus of 45%</li>
+                  </ol>
+                </div>
+                <div>
+                  <p> We plan to launch our blockchain based on the Ethereum code (adding smart contracts after moderation, set the minimum transaction cost, delete all downloaded smart contracts).
+                  <br>
+                  Our goal is to maximize the speed of anonymous transactions with a minimum price for gas.
+                  </p>
+                </div>
+              </div>
+            </div> <!-- col -->
+          </div> <!-- container main -->
+        </section>
+
+        <section class="container-fluid road-wrapper">
+          <div class="padd-t padd-b">
+            <h2 class="text-center text-uppercase">Our Wallet</h2>
           </div>
 
-          <div class="col-sm">
-            <div>
-              <span class="circle float-left"><img src="http://satoshi.team/images/001-arrows.png?crc=3852247539"></span><p>The transfer of token is not fixed by the transaction.</p>
-            </div>
-          </div>
+           <div class="container">
+            <div class="row padd-b">
+              <div class="col-sm">
+                <img src="../../../src/assets/images/mobile1.png">
+              </div>
+              <div class="col-sm">
+                <img src="../../../src/assets/images/mobile2.png">
+              </div>
+              <div class="col-sm">
+                <img src="../../../src/assets/images/mobile3.png">
+              </div>
+            </div> <!-- .row -->
+         </div>  <!-- .container -->
 
-          <div class="w-100"></div>
+          <div class="container">
+            <div class="row padd-b">
+              <div class="col-sm">
+                <img src="../../../src/assets/images/mobile4.png">
+              </div>
+              <div class="col-sm">
+                <img src="../../../src/assets/images/mobile5.png">
+              </div>
+              <div class="col-sm">
+                <img src="../../../src/assets/images/mobile6.png">
+              </div>
+            </div> <!-- .row -->
+          </div> <!--.container -->
 
-          <div class="col-sm">
-            <div>
-              <span class="circle float-left"><img src="http://satoshi.team/images/eth.png?crc=4216544845"></span><p>Total 21 000 000 tokens.</p>
-            </div>
-          </div>
+        </section>
 
-          <div class="col-sm">
-            <div>
-              <span class="circle float-left"><img src="http://satoshi.team/images/002-business.png?crc=385469983"></span><p>Smart contract verified Contract Source Code Verified.</p>
-            </div>
-          </div>
-        </div>
+      </main>
 
-        </div> <!-- container -->
-    </div> <!-- .main-content -->
-  </section>
-
-  <section class="road-wrapper">
-    <div class="container main-content">
-      <div>
-        <h2 class="text-center text-uppercase">Road Map</h2>
-      </div>
-
-      <div class="col">
-        <div class="row">
-          <div class="col-md-9">
-            <p>Launching an application for anonymous payments.</p>
-            <p>Decentralized exchange</p>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="time-line">
-
-          </div> <!-- time-line -->
-          <div>
-            <p> Swap of intermediate tokens STH to the anonymous SATOSHI token.
-
-STH swap will be done by sending tokens to the address of an anonymous smart contract according to the following rules:</p>
-            <ol>
-              <li>1. Up to 1500 STH 1: 1.</li>
-
-              <li>2. From 1500 to 15000 bonus of 15%</li>
-
-              <li>3. From 15,000 to 50,000 bonus of 25%</li>
-
-              <li>4. From 50,000 to 100,000 bonus of 35%</li>
-
-              <li>5. Over 100,000 bonus of 45%</li>
-            </ol>
-          </div>
-          <div>
-            <p> We plan to launch our blockchain based on the Ethereum code (adding smart contracts after moderation, set the minimum transaction cost, delete all downloaded smart contracts).
-            <br>
-            Our goal is to maximize the speed of anonymous transactions with a minimum price for gas.</p>
-          </div>
-        </div>
-      </div> <!-- col -->
-    </div> <!-- container main -->
-  </section>
-</main>
-
-    <!-- footer include -->
-    <% include ../resources/partials/_footer.ejs %>
+      <!-- footer include -->
+      <% include ../resources/partials/_footer.ejs %>
 
     </body>
 </html>
