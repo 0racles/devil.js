@@ -12,6 +12,7 @@ var webpack = require("webpack"),
 	 optipng = require('imagemin-optipng'),
 	 pngquant = require('imagemin-pngquant'),
 	 webp = require('imagemin-webp'),
+ 
 
 	bootstrapconfig = bootstrapEntryPoints.dev;
 
@@ -40,6 +41,11 @@ module.exports = {
           		use : ['css-loader?url=false', 'sass-loader?sourceMap']
 
           	})
+      },
+      // for json loaders
+       {
+        test: /\.json$/,
+        loader: 'json-loader'
       },
           
           // for font awesome TODO - possible that this isnt needed afterall since bootstrap's already exist

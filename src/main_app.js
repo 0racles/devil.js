@@ -7,7 +7,7 @@ var css = require('../src/assets/sass/global.scss'),
 		/* TODO - remove this sha256 variable */
 		SHA256 = require('crypto-js/sha256');
 
-		
+var app = (function () {
 	var 
 	form_input = document.getElementById('form_input'),
 	form_btn = document.getElementById('form_btn'),
@@ -36,7 +36,9 @@ var css = require('../src/assets/sass/global.scss'),
 
 		}
 	};	
+}());
 
+app.eventHandler();
 
 
 // this script should be well commented
