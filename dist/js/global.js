@@ -60,12 +60,12 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
-/******/ ({
-
-/***/ 5:
+/******/ ([
+/* 0 */,
+/* 1 */
 /*!*************************!*\
   !*** ./src/main_app.js ***!
   \*************************/
@@ -73,8 +73,7 @@
 /*! all exports used */
 /***/ (function(module, exports) {
 
-eval("throw new Error(\"Module parse failed: 'return' outside of function (32:1)\\nYou may need an appropriate loader to handle this file type.\\n| \\t};\\r\\n| \\r\\n| \\treturn {\\r\\n| \\t\\teventHandler : function () {\\r\\n| \\t\\tform_btn.addEventListener('click', set_local_storage);\\r\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiNS5qcyIsInNvdXJjZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///5\n");
+eval("throw new Error(\"Module parse failed: 'return' outside of function (32:1)\\nYou may need an appropriate loader to handle this file type.\\n| \\t};\\r\\n| \\r\\n| \\treturn {\\r\\n| \\t\\teventHandler : function () {\\r\\n| \\t\\tform_btn.addEventListener('click', set_local_storage);\\r\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMS5qcyIsInNvdXJjZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///1\n");
 
 /***/ })
-
-/******/ });
+/******/ ]);
