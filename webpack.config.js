@@ -82,6 +82,9 @@ module.exports = {
       	  // image loader ends here   	 
 		]
 	},	
+  watchOptions : {
+    ignored : /dist/
+  },
 	plugins : [
 		new ExtractTextPlugin({ 
 			filename :'css/[name].css',
