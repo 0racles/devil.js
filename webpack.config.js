@@ -83,7 +83,7 @@ module.exports = {
 		]
 	},	
   watchOptions : {
-    ignored : /dist/
+    ignored : './dist'
   },
 	plugins : [
 		new ExtractTextPlugin({ 
@@ -98,7 +98,7 @@ module.exports = {
 
     // html template build for landing page - thinking highways
     new HtmlWebpackPlugin({
-      hash : false,
+      hash : true,
       template : 'ejs-render-loader!./BaseBundle/resources/views/base.ejs',
       inject : 'body'
     }),
