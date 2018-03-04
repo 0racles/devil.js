@@ -83,7 +83,7 @@ module.exports = {
 		]
 	},	
   watchOptions : {
-    ignored : './dist'
+    ignored : /dist/
   },
 	plugins : [
 		new ExtractTextPlugin({ 
