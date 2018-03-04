@@ -89,7 +89,7 @@ module.exports = {
 		new ExtractTextPlugin({ 
 			filename :'css/[name].css',
 			disable : false,
-			allChunks : false
+			allChunks : true
 		}),
 		new webpack.ProvidePlugin({
 			$: 'jquery',
@@ -98,7 +98,7 @@ module.exports = {
 
     // html template build for landing page - thinking highways
     new HtmlWebpackPlugin({
-      hash : true,
+      hash : false,
       template : 'ejs-render-loader!./BaseBundle/resources/views/base.ejs',
       inject : 'body'
     }),
