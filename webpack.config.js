@@ -13,6 +13,7 @@ var webpack = require("webpack"),
 	 optipng = require('imagemin-optipng'),
 	 pngquant = require('imagemin-pngquant'),
 	 webp = require('imagemin-webp'),
+ 
 
 	bootstrapconfig = bootstrapEntryPoints.dev;
 
