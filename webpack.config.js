@@ -5,17 +5,7 @@ var webpack = require("webpack"),
     HtmlWebpackPlugin = require('html-webpack-plugin'),
     bootstrapEntryPoints = require('./webpack.bootstrap.config'),
     imagemin = require('imagemin'),
-<<<<<<< HEAD
-    imageminJpegtran = require('imagemin-jpegtran'),
-	  imageminPngquant = require('imagemin-pngquant'),
-	  gifsicle = require('imagemin-gifsicle'),
-	  mozjpeg = require('imagemin-mozjpeg'),
-	  optipng = require('imagemin-optipng'),
-	  pngquant = require('imagemin-pngquant'),
-	  webp = require('imagemin-webp'),
-    json = require('json-loader'),
-    script = require('script-loader'),
-=======
+
    imageminJpegtran = require('imagemin-jpegtran'),
 	 imageminPngquant = require('imagemin-pngquant'),
 	 gifsicle = require('imagemin-gifsicle'),
@@ -23,8 +13,6 @@ var webpack = require("webpack"),
 	 optipng = require('imagemin-optipng'),
 	 pngquant = require('imagemin-pngquant'),
 	 webp = require('imagemin-webp'),
- 
->>>>>>> feature/6-CreateBootstrapSassModules
 
 	bootstrapconfig = bootstrapEntryPoints.dev;
 
@@ -54,7 +42,6 @@ module.exports = {
           		use : ['css-loader?url=false', 'sass-loader?sourceMap']
           	}),
       },
-<<<<<<< HEAD
 
           // for json loader
           {
@@ -68,14 +55,6 @@ module.exports = {
             use: 'script-loader'
           },
 
-=======
-      // for json loaders
-       {
-        test: /\.json$/,
-        loader: 'json-loader'
-      },
-          
->>>>>>> feature/6-CreateBootstrapSassModules
           // for font awesome TODO - possible that this isnt needed afterall since bootstrap's already exist
          { test: /\.woff(2)?(\?.*$|$)/, loader: "url-loader?limit=10000&mimetype=application/font-woff&name=font-awesome/[name].[ext]" },
       	   { test: /\.(ttf|eot|svg)(\?.*$|$)/, loader: "file-loader?name=fonts/[name].[ext]" }, 
@@ -124,22 +103,12 @@ module.exports = {
 			jQuery : 'jquery'
 		}),
 
-<<<<<<< HEAD
-    new HtmlWebpackPlugin({
-      hash : true,
-      template : 'ejs-render-loader!./BaseBundle/resources/views/dummy.ejs',
-      inject : 'body'
-    }),
-
-		new ModernizrWebpackPlugin(),
-=======
     // html template build for landing page - thinking highways
     new HtmlWebpackPlugin({
       hash : true,
       template : 'ejs-render-loader!./BaseBundle/resources/views/base.ejs',
       inject : 'body'
     }),
->>>>>>> feature/6-CreateBootstrapSassModules
 
 		new ModernizrWebpackPlugin(),
 	]

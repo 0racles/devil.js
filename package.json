@@ -4,11 +4,8 @@
   "main": "entry.js",
   "scripts": {
     "devil": "webpack -d",
-<<<<<<< HEAD
-    // "watch": "webpack -d --watch",
-=======
     "watch": "webpack -d --watch",
->>>>>>> feature/6-CreateBootstrapSassModules
+
     "prod": "npm run clean && webpack -p",
     "clean": "rimraf ./dist/*"
   },
