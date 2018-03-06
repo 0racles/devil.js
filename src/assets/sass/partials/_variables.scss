@@ -1,2 +1,45 @@
+<<<<<<< HEAD
 @import '_devil.json';
+=======
+@import '../bootstrap/pre-customizations.scss';
+
+/* ALERT */
+$alert-padding : $devil-value;
+$line-height-computed : floor(($devil-font * $devil-line-height)); /* to change */
+$alert-border-devil-value : $devil-value;
+$alert-border-radius : $devil-value;
+
+/* headings for larger alerts */
+$alert-border-margin-top : $devil-value;
+
+/* Provide class for links that match alerts */
+$alert-link-font-weight : $devil-value;
+
+/* Dismissible alerts */
+$alert-padding : $devil-value;
+
+/* Adjust close link position */
+  
+$alert-close-position : relative; /* to change */
+$alert-close-top : $devil-value;
+$alert-close-right : $devil-value;
+$alert-close-color : inherit; /* to change */
+
+$alert-success-bg: $state-success-bg;
+$alert-success-text: #333;
+$alert-success-border: $state-success-border;
+
+$alert-info-bg: $state-info-bg;
+$alert-info-text: $state-info-text;
+$alert-info-border: $state-info-border;
+
+$alert-warning-bg: $state-warning-bg;
+$alert-warning-text: $state-warning-text;
+$alert-warning-border: $state-warning-border;
+
+$alert-danger-bg: $state-danger-bg;
+$alert-danger-text: $state-danger-text;
+$alert-danger-border: $state-danger-border;
+
+>>>>>>> feature/6-CreateBootstrapSassModules
 

@@ -44,7 +44,7 @@ preBootstrapCustomizations: ./src/assets/sass/bootstrap/pre-customizations.scss
 # Import your custom styles here
 # Usually this endpoint-file contains list of @imports of your application styles
 #
-# appStyles: ./path/to/your/app/styles/endpoint.scss
+appStyles: ./src/assets/sass/partials/_variables.scss
 
 
 ### Bootstrap styles

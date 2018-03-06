@@ -1,3 +1,235 @@
+$devil-value : 10px;
+$devil-font : 10px;
+$devil-font-weight : normal;
+$devil-line-height : 1.428571429;
+$devil-color : #ffffff;
+$devil-bg-primary : #808000;
+$devil-bg-success : #4c997f;
+$devil-bg-info : #0000ff;
+$devil-bg-warning : #a54382;
+$devil-bg-danger : #7fff94;
+$devil-border-radius-base : 4px;
+$devil-border-radius-large : 6px;
+$devil-border-radius-small : 3px;
+$devil-carousel-control-color : #4c997f;
+$devil-border-color : #462a88;
+$devil-border-focus : #3d5579;
+$devil-placeholder : #333;
+$devil-opacity : 0.3;
+$devil-modal-lg : 900px;
+$devil-modal-md : 600px;
+$devil-modal-sm : 300px;
+$devil-height : 40px;
+$devil-width : 40px;
+
+//* Anchor variables
+$font-size-base : $devil-font;
+$line-height-base : $devil-line-height;
+
+$state-success-bg : $devil-bg-success;
+$state-success-text : $devil-color;
+$state-success-border : $devil-bg-success;
+
+$state-info-bg : $devil-bg-info;
+$state-info-text : $devil-color;
+$state-info-border : $devil-bg-info;
+
+$state-warning-bg : $devil-bg-warning;
+$state-warning-text : $devil-color;
+$state-warning-border : $devil-bg-warning;
+
+$state-danger-bg : $devil-bg-danger;
+$state-danger-text : $devil-color;
+$state-danger-border : $devil-bg-danger;
+
+
+//* REDEFINE
+$alert-border-devil-value : 1px solid transparent;
+$alert-border-margin-top : 0;
+$alert-close-position : relative;
+$alert-close-top : -2px;
+$alert-close-right : -21px;
+$alert-close-color : inherit;
+
+
+//== Badges
+//
+//##
+
+$badge-color: $devil-color;
+$badge-bg: $devil-bg-primary;
+$badge-active-color: $devil-bg-primary;
+$badge-active-bg: $devil-bg-success;
+
+
+//== Breadcrumbs
+//
+//##
+
+//** Breadcrumb background color
+$breadcrumb-bg: $devil-bg-success;
+//** Breadcrumb text color
+$breadcrumb-color: $devil-color;
+//** Text color of current page in the breadcrumb
+$breadcrumb-active-color: $devil-color;
+
+
+//== Buttons
+//
+//## For each of Bootstrap's buttons, define text, background and border color.
+
+$btn-font-weight: $devil-font-weight;
+
+$btn-default-color: $devil-color;
+$btn-default-bg: $devil-bg-success;
+
+$btn-primary-bg: $devil-bg-primary;
+
+$btn-success-bg: $devil-bg-success;
+
+$btn-info-bg: $devil-bg-info;
+
+$btn-warning-bg: $devil-bg-warning;
+
+$btn-danger-bg: $devil-bg-danger;
+
+
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius-base:         $devil-border-radius-base;
+$btn-border-radius-large:        $devil-border-radius-large;
+$btn-border-radius-small:        $devil-border-radius-small;
+
+
+//== Carousel
+//
+//##
+
+$carousel-control-color: $devil-carousel-control-color;
+
+
+//== Close
+//
+//##
+
+$close-font-weight: $devil-font-weight;
+$close-color: $devil-color;
+
+
+//== Dropdowns
+//
+//## Dropdown menu container and contents.
+
+//** Background for the dropdown menu.
+$dropdown-bg: $devil-bg-success;
+
+
+//** Divider color for between dropdown items.
+$dropdown-divider-bg: $devil-bg-danger;
+
+//** Dropdown link text color.
+$dropdown-link-color: $devil-color;
+
+//** Hover background for dropdown links.
+$dropdown-link-hover-bg: $devil-bg-warning;
+
+//** Active dropdown menu item text color.
+$dropdown-link-active-color: $devil-color;
+
+//** Active dropdown menu item background color.
+$dropdown-link-active-bg: $devil-bg-primary;
+
+
+//== Forms
+//
+//##
+
+//** `<input>` background color
+$input-bg: $devil-bg-success;
+
+//** Text color for `<input>`s
+$input-color: $devil-color;
+
+
+// TODO: Rename 
+// This has no effect on `<select>`s in some browsers, due to the limited stylability of `<select>`s in CSS.
+$input-border-radius:            $devil-border-radius-base;
+//** Large `.form-control` border radius
+$input-border-radius-large: $devil-border-radius-large;
+//** Small `.form-control` border radius
+$input-border-radius-small:      $devil-border-radius-small;
+
+//** Border color for inputs on focus
+$input-border-focus: $devil-border-focus;
+
+//** Placeholder text color
+$input-color-placeholder: $devil-placeholder;
+
+
+//== Jumbotron
+//
+//##
+
+$jumbotron-bg: $devil-bg-success;
+$jumbotron-heading-color: $devil-color;
+
+
+//== Labels
+//
+//##
+
+//** Default label background color
+
+//** Primary label background color
+$label-primary-bg: $devil-bg-primary;
+//** Success label background color
+$label-success-bg: $devil-bg-success;
+//** Info label background color
+$label-info-bg: $devil-bg-info;
+//** Warning label background color
+$label-warning-bg: $devil-bg-warning;
+//** Danger label background color
+$label-danger-bg: $devil-bg-danger;
+
+//** Default label text color
+$label-color: $devil-color;
+
+
+//== Modals
+//
+//##
+
+//** Background color of modal content area
+$modal-content-bg: $devil-bg-primary;
+//** Modal content border color
+$modal-content-border-color: $devil-border-color;
+
+//** Modal backdrop background color
+$modal-backdrop-bg: $devil-bg-info;
+//** Modal backdrop opacity
+$modal-backdrop-opacity: $devil-opacity;
+
+//** Modal header border color
+$modal-header-border-color: $devil-border-color;
+//** Modal footer border color
+$modal-footer-border-color: $devil-border-color;
+
+$modal-lg: $devil-modal-lg;
+$modal-md: $devil-modal-md;
+$modal-sm: $devil-modal-sm;
+
+
+//== Navbar
+//
+//##
+
+// Basics of a navbar
+$navbar-height: $devil-height;
+
+$navbar-border-radius:             $devil-border-radius-base;
+
+$navbar-default-color: $devil-color;
+
+$navbar-default-bg: $devil-bg-primary;
 
 
 /* ------ Queries (If at all, tweak the ones at variables.scss except you want to alter this from bootstrap directly) ----------------------- */
