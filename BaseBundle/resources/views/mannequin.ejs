@@ -1,0 +1,74 @@
+<!-- Main web interface for modifying components with Devil.js. Components in nodemodules > bootstrap-sass > assets > stylesheets > bootstrap -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- fontawesome CDN -->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    </head>
+
+    <body>
+      <!-- header include -->
+      Beta version 0.10
+      <% include ../resources/partials/header.ejs %>
+
+      <main>
+        <div class="container">
+          <div class="row">
+
+            <div class="col">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">Alerts</span>
+                </div>
+                <input type="text" id="alert_input" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">Badges</span>
+                </div>
+                <input type="text" id="badges_input" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">Breadcrumbs</span>
+                </div>
+                <input type="text" id="breadcrumbs_input" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">Button Groups</span>
+                </div>
+                <input type="text" id="button-group_input" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+            </div>
+
+
+            <div class="col">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">Buttons</span>
+                </div>
+                <input type="text" id="buttons_input" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </main>
+
+    <!-- footer include -->
+    <% include ../resources/partials/_footer.ejs %>
+
+  </body>
+</html>
