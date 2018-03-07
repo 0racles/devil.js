@@ -1,0 +1,70 @@
+/* ------ Queries (If at all, tweak the ones at variables.scss except you want to alter this from bootstrap directly) ----------------------- */
+/* ALERT */
+/* to change */
+/* headings for larger alerts */
+/* Provide class for links that match alerts */
+/* Dismissible alerts */
+/* Adjust close link position */
+/* to change */
+/* to change */
+.alert {
+  padding: 10px;
+  margin-bottom: 14px;
+  border: 1px solid transparent;
+  border-radius: 10px; }
+  .alert h4 {
+    margin-top: 0;
+    color: inherit; }
+  .alert .alert-link {
+    font-weight: 10px; }
+  .alert > p,
+  .alert > ul {
+    margin-bottom: 0; }
+  .alert > p + p {
+    margin-top: 5px; }
+
+.alert-dismissable,
+.alert-dismissible {
+  padding-right: 30px; }
+  .alert-dismissable .close,
+  .alert-dismissible .close {
+    position: relative;
+    top: 10px;
+    right: 10px;
+    color: inherit; }
+
+.alert-success {
+  background-color: green;
+  border-color: blue;
+  color: red; }
+  .alert-success hr {
+    border-top-color: #0000e6; }
+  .alert-success .alert-link {
+    color: #cc0000; }
+
+.alert-info {
+  background-color: #0000ff;
+  border-color: #0000ff;
+  color: #ffffff; }
+  .alert-info hr {
+    border-top-color: #0000e6; }
+  .alert-info .alert-link {
+    color: #e6e6e6; }
+
+.alert-warning {
+  background-color: #a54382;
+  border-color: #a54382;
+  color: #ffffff; }
+  .alert-warning hr {
+    border-top-color: #933c74; }
+  .alert-warning .alert-link {
+    color: #e6e6e6; }
+
+.alert-danger {
+  background-color: #7fff94;
+  border-color: #7fff94;
+  color: #ffffff; }
+  .alert-danger hr {
+    border-top-color: #66ff7f; }
+  .alert-danger .alert-link {
+    color: #e6e6e6; }

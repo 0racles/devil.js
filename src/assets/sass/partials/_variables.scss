@@ -1,26 +1,40 @@
-/* ---------------------------colors -------------------------------------- */
+@import '../bootstrap/pre-customizations.scss';
 
-/* $row-background-color: #eeeeee; */
-$body-background-color: #1B1438; /* satoshi dark blue */
-$bg-transparent: rgba(27,20,0,0.1);  /* satoshi transparent */
-$button-green: #22B573;
-$button-hover: #00afa0;
- 
-/* ------------------------------------------ block element modifiers --------------------------------*/
+/* ALERT */
+$alert-padding : $devil-value;
+$line-height-computed : floor(($devil-font * $devil-line-height)); /* to change */
+$alert-border-devil-value : $devil-value;
+$alert-border-radius : $devil-value;
 
-$full-width: 100%;
-$half-width: 50%;
-$one-third: 33.33%;
-$quarter-width: 25%;
+/* headings for larger alerts */
+$alert-border-margin-top : $devil-value;
 
-$full-height: 100%;
-$half-height: 50%;
-$one-third: 33.33%;
-$quarter-height: 25%;
+/* Provide class for links that match alerts */
+$alert-link-font-weight : $devil-value;
 
-/* -------------------------------- TEXT SIZING -------------------------------*/
+/* Dismissible alerts */
+$alert-padding : $devil-value;
 
-$font-lg: 90px; /* Satoshi title size */
-$font-md: 36px; /* Satoshi Heading size */
-$font-sm: 30px; /* Satoshi sub heading size */
-$font-xs: 18px; /* Satoshi p size */
+/* Adjust close link position */
+  
+$alert-close-position : relative; /* to change */
+$alert-close-top : $devil-value;
+$alert-close-right : $devil-value;
+$alert-close-color : inherit; /* to change */
+
+$alert-success-bg: $state-success-bg;
+$alert-success-text: #333;
+$alert-success-border: $state-success-border;
+
+$alert-info-bg: $state-info-bg;
+$alert-info-text: $state-info-text;
+$alert-info-border: $state-info-border;
+
+$alert-warning-bg: $state-warning-bg;
+$alert-warning-text: $state-warning-text;
+$alert-warning-border: $state-warning-border;
+
+$alert-danger-bg: $state-danger-bg;
+$alert-danger-text: $state-danger-text;
+$alert-danger-border: $state-danger-border;
+
