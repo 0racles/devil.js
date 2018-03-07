@@ -5,13 +5,15 @@ var webpack = require("webpack"),
     HtmlWebpackPlugin = require('html-webpack-plugin'),
     bootstrapEntryPoints = require('./webpack.bootstrap.config'),
     imagemin = require('imagemin'),
-   imageminJpegtran = require('imagemin-jpegtran'),
-	 imageminPngquant = require('imagemin-pngquant'),
-	 gifsicle = require('imagemin-gifsicle'),
-	 mozjpeg = require('imagemin-mozjpeg'),
-	 optipng = require('imagemin-optipng'),
-	 pngquant = require('imagemin-pngquant'),
-	 webp = require('imagemin-webp'),
+    imageminJpegtran = require('imagemin-jpegtran'),
+	  imageminPngquant = require('imagemin-pngquant'),
+	  gifsicle = require('imagemin-gifsicle'),
+	  mozjpeg = require('imagemin-mozjpeg'),
+	  optipng = require('imagemin-optipng'),
+	  pngquant = require('imagemin-pngquant'),
+	  webp = require('imagemin-webp'),
+    json = require('json-loader'),
+    script = require('script-loader'),
 
 	bootstrapconfig = bootstrapEntryPoints.dev;
 
@@ -34,14 +36,26 @@ module.exports = {
       	  	test: /\.ejs$/,
       	  	use: 'ejs-html-loader'
       	  },
-          { test: /\.scss$/, 
-          	use : ExtractTextPlugin.extract({ 
+          { 
+              test: /\.scss$/, 
+          	  use : ExtractTextPlugin.extract({ 
           		fallback : 'style-loader',
           		use : ['css-loader?url=false', 'sass-loader?sourceMap']
-
-          	})
+          	}),
       },
-          
+
+          // for json loader
+          {
+            test: /\.json$/,
+            use: 'json-loader'
+          },
+
+          // for script loader
+          {
+            test: /\.exec\.js$/,
+            use: 'script-loader'
+          },
+
           // for font awesome TODO - possible that this isnt needed afterall since bootstrap's already exist
          { test: /\.woff(2)?(\?.*$|$)/, loader: "url-loader?limit=10000&mimetype=application/font-woff&name=font-awesome/[name].[ext]" },
       	   { test: /\.(ttf|eot|svg)(\?.*$|$)/, loader: "file-loader?name=fonts/[name].[ext]" }, 
@@ -86,6 +100,12 @@ module.exports = {
 			$: 'jquery',
 			jQuery : 'jquery'
 		}),
+
+    new HtmlWebpackPlugin({
+      hash : true,
+      template : 'ejs-render-loader!./BaseBundle/resources/views/dummy.ejs',
+      inject : 'body'
+    }),
 
 		new ModernizrWebpackPlugin(),
 
